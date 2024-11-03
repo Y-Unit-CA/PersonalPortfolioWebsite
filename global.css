@@ -1,11 +1,106 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 body {
-  @apply leading-[normal] m-0;
+  margin: 0;
+  line-height: normal;
 }
-*,
-::before,
-::after {
-  border-width: 0;
+
+:root {
+  /* fonts */
+  --inter-regular-18: Inter;
+  --font-plus-jakarta-sans: "Plus Jakarta Sans";
+
+  /* font sizes */
+  --text-md-regular-size: 1rem;
+  --inter-regular-18-size: 1.125rem;
+  --inter-semi-bold-20-size: 1.25rem;
+  --font-size-27xl: 2.875rem;
+  --font-size-18xl: 2.313rem;
+  --font-size-9xl: 1.75rem;
+  --display-xs-medium-size: 1.5rem;
+  --font-size-lgi: 1.188rem;
+  --font-size-7xl: 1.625rem;
+  --font-size-2xl: 1.313rem;
+  --inter-semi-bold-30-size: 1.875rem;
+
+  /* Colors */
+  --colors-text-text-primary-on-brand: #fff;
+  --base-black: #000;
+  --gradient-gray-900-700-45deg: #181d27;
+  --black: #12141d;
+  --color-gray-100: rgba(10, 13, 18, 0.2);
+  --component-colors-components-avatars-avatar-contrast-border: rgba(
+    0,
+    0,
+    0,
+    0.08
+  );
+  --color-gray-200: rgba(18, 20, 29, 0.8);
+  --color-gainsboro-100: #ebe5e0;
+  --color-gainsboro-200: #e4e4e7;
+  --color-whitesmoke: #f5f1ee;
+  --blue-gray-700: #334155;
+  --color-darkslategray-100: #2d2d2d;
+  --colors-text-text-tertiary-on-brand: #e9d7fe;
+
+  /* Spacing */
+  --container-padding-mobile: 1rem;
+  --container-max-width-desktop: 80rem;
+  --radius-full: 624.937rem;
+  --spacing-xl: 1rem;
+  --spacing-md: 0.5rem;
+  --spacing-xxs: 0.125rem;
+  --radius-sm: 0.375rem;
+  --spacing-sm: 0.375rem;
+
+  /* Gaps */
+  --gap-xl: 1.25rem;
+  --gap-5xl: 1.5rem;
+  --gap-29xl: 3rem;
+  --gap-82xl-1: 6.318rem;
+  --gap-lgi: 1.187rem;
+  --gap-384xl-3: 25.206rem;
+  --gap-13xl: 2rem;
+  --gap-base: 1rem;
+  --gap-8xl: 1.687rem;
+  --gap-15xl: 2.125rem;
+  --gap-mid: 1.062rem;
+  --gap-5xs: 0.5rem;
+  --gap-46xl: 4.062rem;
+  --gap-lg: 1.125rem;
+
+  /* Paddings */
+  --padding-xl: 1.25rem;
+  --padding-base: 1rem;
+  --padding-15xl: 2.125rem;
+  --padding-27xl: 2.875rem;
+  --padding-28xl: 2.937rem;
+  --padding-base-5: 0.968rem;
+  --padding-26xl: 2.812rem;
+  --padding-7xs: 0.375rem;
+  --padding-8xs-7: 0.293rem;
+  --padding-7xs-9: 0.368rem;
+  --padding-22xl: 2.562rem;
+  --padding-63xl: 5.125rem;
+  --padding-43xl: 3.875rem;
+  --padding-125xl: 9rem;
+  --padding-269xl: 18rem;
+  --padding-100xl: 7.437rem;
+  --padding-220xl: 14.937rem;
+  --padding-3xl: 1.375rem;
+  --padding-11xs: 0.125rem;
+  --padding-18xl: 2.312rem;
+  --padding-5xl: 1.5rem;
+  --padding-2xl: 1.312rem;
+  --padding-11xl: 1.875rem;
+  --padding-17xl: 2.25rem;
+  --padding-3xs: 0.625rem;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-9980xl: 9999px;
+  --br-7xs: 6px;
+
+  /* Effects */
+  --shadows-shadow-xs-skeuomorphic: 0px 0px 0px 1px rgba(10, 13, 18, 0.18) inset,
+    0px -2px 0px rgba(10, 13, 18, 0.05) inset,
+    0px 1px 2px rgba(10, 13, 18, 0.05);
 }
