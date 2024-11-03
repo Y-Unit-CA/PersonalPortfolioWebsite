@@ -913,15 +913,6 @@
   min-width: 480px;
   max-width: 100%;
 }
-.avatar-profile-photo6 {
-  align-self: stretch;
-  flex: 1;
-  position: relative;
-  border-radius: 9999px;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
 .avatar-profile-photo-wrapper {
   height: 665px;
   display: flex;
