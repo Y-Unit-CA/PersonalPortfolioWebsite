@@ -1,0 +1,15 @@
+{
+  "locofyConfig": {
+    "project": "RogerYau.com",
+    "id": "2oJ46hXCTvkKDS5B0zwWn1Dzw8U",
+    "framework": "html-css",
+    "typescript": false,
+    "tailwindAllowGenerateToken": true,
+    "styling": "CSS",
+    "unit": "px",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "c:\\Users\\User\\OneDrive\\Documents\\Git\\PersonalPortfolioWebsite\\src\\components",
+    "screensPath": "c:\\Users\\User\\OneDrive\\Documents\\Git\\PersonalPortfolioWebsite\\src\\pages"
+  }
+}
